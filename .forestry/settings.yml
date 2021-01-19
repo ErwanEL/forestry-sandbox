@@ -13,7 +13,7 @@ sections:
   - landing-page
 upload_dir: static/uploads
 public_path: "/media"
-front_matter_path: ''
+front_matter_path: "/static"
 use_front_matter_path: true
 file_template: ":filename:"
 build:
