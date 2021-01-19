@@ -8,3 +8,25 @@ fields:
     maxSize: 64
   label: Book image
   description: Image of book
+- name: title-1
+  type: text
+  config:
+    required: false
+  label: title-1
+  description: first title
+- name: title-2
+  type: text
+  config:
+    required: false
+  label: title-2
+  description: second title
+- name: accroche
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: accroche
+  description: accroche description
