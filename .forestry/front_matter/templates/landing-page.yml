@@ -30,3 +30,5 @@ fields:
       format: markdown
   label: accroche
   description: accroche description
+pages:
+- content/books/book0.md
