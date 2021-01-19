@@ -3,7 +3,14 @@ new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: content/books
+  label: Landing pages
+  create: all
+  match: "**/*"
+  templates:
+  - landing-page
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
